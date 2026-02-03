@@ -3,28 +3,6 @@
 #include <sys/time.h>
 #include <vector>
 
-// g++ -O3 eigen_matMultiplication_949031_774748.cpp -I./eigen-3.4.0 -o eigen_matMultiplication_949031_774748
-
-// # Número de repeticiones por tamaño
-// reps=5
-
-// # Recorre los tamaños de matriz deseados
-// for n in 100 200 500 800 1000 2000
-// do
-//   echo "=============================="
-//   echo "Tamaño de matriz: ${n}x${n}"
-
-//   # Bucle de repeticiones
-//   for ((i=1; i<=reps; i++))
-//   do
-//     echo "--- Ejecución #$i ---"
-//     time ./eigen_matMultiplication_949031_774748_Ex2 $n
-//     echo ""
-//   done
-
-//   echo "=============================="
-//   echo ""
-// done
 using namespace Eigen;
 using namespace std;
 

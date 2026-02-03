@@ -4,37 +4,6 @@
 #include <random>
 using namespace std;
 
-// # Número de repeticiones por tamaño
-// reps=5
-
-// # Recorre los tamaños de matriz deseados
-// for n in 100 200 500 800 1000 2000
-// do
-//   echo "=============================="
-//   echo "Tamaño de matriz: ${n}x${n}"
-
-//   # Bucle de repeticiones
-//   for ((i=1; i<=reps; i++))
-//   do
-//     echo "--- Ejecución #$i ---"
-//     time ./matrix_matMultiplication_949031_774748_Ex2 $n
-//     echo ""
-//   done
-
-//   echo "=============================="
-//   echo ""
-// done
-
-// Hacer pocas veces cada uno y sacar la media y en eigen igual
-
-// Para el ejercicio 3
-// for n in 100 200 500 800 1000 2000
-// do
-//   echo "=============================="
-//   echo "Tamaño de matriz: ${n}x${n}"
-//   strace -c ./matrix_multiplication_949031_774748_Ex2 $n
-//   echo ""
-// done
 
 vector<vector<double>> matrix_generator(int n);
 vector<vector<double>> multiply_matrix(const vector<vector<double>>& A, const vector<vector<double>>& B);
